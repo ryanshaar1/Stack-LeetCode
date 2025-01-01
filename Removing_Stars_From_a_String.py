@@ -5,6 +5,5 @@ class Solution(object):
             if char != '*':
                 stack.append(char)
             else:
-                if stack != []:
-                    stack.pop()
+                stack.pop()
         return "".join(stack)    
